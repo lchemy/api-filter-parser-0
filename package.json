@@ -1,0 +1,16 @@
+{
+  "name": "api-filter-parser",
+  "version": "1.0.0",
+  "description": "Parses API filter string into JSON",
+  "private": true,
+  "main": "dist/api-filter.js",
+  "scripts": {
+    "build": "mkdirp codegen && jison src/api-filter.jison src/api-filter.jisonlex --outfile codegen/api-filter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jison": "^0.4.17",
+    "mkdirp": "^0.5.1"
+  }
+}
