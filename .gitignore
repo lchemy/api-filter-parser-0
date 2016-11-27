@@ -3,6 +3,7 @@
 dist
 codegen
 coverage
+.npmrc
 
 # Node #
 ########
